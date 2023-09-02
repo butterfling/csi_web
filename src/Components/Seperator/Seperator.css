@@ -1,0 +1,6 @@
+.seperator{
+    background: rgb(0,1,55);
+    width: 100%;
+    height: 200px;
+    background: linear-gradient(0deg, rgba(0,1,55,1) 0%, rgba(0,0,0,1) 25%, rgba(0,0,0,1) 75%, rgba(0,1,55,1) 100%);
+}

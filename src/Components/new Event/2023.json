@@ -1,0 +1,52 @@
+[
+    {
+        "img":"hgfhjgsdjhgjfds.com",
+        "eventname":"Arena 2.0",
+        "evantDate":"23th July 2023",
+        "description":"UPES-CSI organised a dynamic gaming event which featured two of the most popular games amongst teenagers these days i.e. Valorant and BGMI. The BGMI Tournament, tested the participants' battle royale capabilities in intense competitive showdowns. The Valorant Tournament brought the strategies of FPS gameplay and battles, as the game is known for its vibrant character design, showcasing intense battles of skills and teamwork.",
+        "color":"red"
+
+    },
+    {
+        "img":"hgfhjgsdjhgjfds.com",
+        "eventname":"CSR",
+        "evantDate":"26th August 2023",
+        "description":"It is an event where the committee visits orphanages or schools to actively engage the underprivileged in various fun and interesting activities. These events foster a sense of belonging and empowerment amongst the committee members to contribute meaningfully to the society and its upliftment.",
+        "color":"blue"
+    },
+    {
+        "img":"hgfhjgsdjhgjfds.com",
+        "eventname":"Valorant",
+        "evantDate":"25th May 2023",
+        "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "color":"red"
+    },
+    {
+        "img":"hgfhjgsdjhgjfds.com",
+        "eventname":"Valorant",
+        "evantDate":"25th May 2023",
+        "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "color":"blue"
+    },
+    {
+        "img":"hgfhjgsdjhgjfds.com",
+        "eventname":"Valorant",
+        "evantDate":"25th May 2023",
+        "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "color":"red"
+    },
+    {
+        "img":"hgfhjgsdjhgjfds.com",
+        "eventname":"Valorant",
+        "evantDate":"25th May 2023",
+        "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "color":"blue"
+    },
+    {
+        "img":"hgfhjgsdjhgjfds.com",
+        "eventname":"Valorant",
+        "evantDate":"25th May 2023",
+        "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "color":"red"
+    }
+]

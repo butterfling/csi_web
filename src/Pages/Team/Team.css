@@ -1,0 +1,106 @@
+.team{
+    background-color: black;
+    color: aliceblue;
+}
+/* Add this to your Team.css file */
+.example {
+    width: 80%;
+    height: min-content;
+    stroke: #bf4d00;
+    padding: 4%;
+    border: 1px solid #eaeef5;
+}
+.line-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* Team.css */
+
+/* Add media queries for different screen sizes */
+@media (max-width: 768px) {
+    .main {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .head,
+    .sub-head,
+    .col-md-4 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .grid-contain{
+        margin-left: 12px !important;
+        margin-right: 12px !important;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 0.5rem !important;
+    }
+
+}
+
+.team-member{
+    background-color: #2b3349ce !important;
+    transform: scale(0.8);
+    transition: all 0.2s ease-in-out;
+    max-width: 370px;
+    min-width: 370px;
+}
+.team-member{
+    clip-path: polygon(26px 0%, 100% 0, 100% calc(100% - 26px), calc(100% - 26px) 100%, 0 100%, 0% 26px) !important;
+}
+.img .img2{
+    max-height: 350px;
+    min-height: 350px;
+    overflow:hidden;
+    object-fit: cover;
+}
+.team-modal{
+    border-radius: 10px;
+    width: 300px;
+    padding: 20px;
+}
+.img{
+    position: relative;
+}
+.our-team h2{
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+.team-member:hover{
+    transition: all 0.2s ease-in-out;
+}
+/* .logo-linked{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ background-color: rgba(0, 0, 0, 0.409);
+ scale: 1.7;
+    opacity: 0;
+    transition: all 0.2s ease-in-out;
+} */
+.linked{
+    z-index: 99;
+    color: white;
+     font-size: 40px !important;
+}
+/* .team-member:hover .logo-linked{
+    opacity: 1;
+    transition: all 0.2s ease-in-out;
+} */
+
+@media (max-width:530px) {
+    .team-member{
+        max-width: 180px !important;
+        min-width: 180px !important;
+    }
+    .img .img2{
+        max-height: 150px;
+        min-height: 150px;
+    }
+}

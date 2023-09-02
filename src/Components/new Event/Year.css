@@ -1,0 +1,9 @@
+.three-buttons button{
+    background-color: #2b3349;
+    outline: none;
+    border: 1px solid white;
+}
+
+.event-ou h2{
+    text-align: center;
+}

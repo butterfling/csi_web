@@ -1,0 +1,12 @@
+@media (max-width:550px) {
+    .new-footer-outer{
+        gap: 1.25rem !important;
+    }
+    .new-footer-outer p{
+        font-size: 10px !important;
+    }
+    .new-footer-outer .logos-group{
+        gap: 1.1rem !important;
+        scale: 0.8;
+    }
+}

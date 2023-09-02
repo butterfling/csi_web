@@ -1,0 +1,158 @@
+Contact Form Container
+.contact-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+}
+
+/* Contact Content */
+.contact-content {
+  display: flex;
+  width: 80%;
+background-color: #2b3349;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+
+/* Contact Details */
+.contact-details {
+  margin-bottom: 20px;
+}
+
+.contact-topic {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.contact-text {
+  color: #555;
+}
+
+/* Contact Right */
+.contact-right {
+  flex: 1;
+  padding: 40px;
+}
+
+.contact-topic-text {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.contact-description {
+  color: #888;
+  margin-bottom: 20px;
+}
+
+/* Contact Input Box */
+.contact-input-box {
+  margin-bottom: 20px;
+}
+
+.contact-input-box input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  outline: none;
+}
+
+/* Contact Message Box */
+.contact-message-box input {
+  height: 100px;
+  resize: none;
+}
+
+/* Contact Button */
+.contact-button {
+  text-align: center;
+}
+
+.contact-button input[type="button"] {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-button input[type="button"]:hover {
+  background-color: #ddd;
+}
+
+/* Contact Form Container */
+.contact-form-container {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  min-height: 100vh; /* Instead of height */
+  /* background-color: #f3f3f3; */
+}
+
+/* Contact Content */
+.contact-content {
+  display: flex;
+  width: 80%;
+  /* background-color: white; */
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  margin: 20px; /* Add some space around the form */
+}
+
+/* Contact Left */
+.contact-left {
+  flex: 1;
+  padding: 5px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ... Other CSS Rules ... */
+
+/* Use media queries for responsiveness */
+
+/* Small screens */
+@media (max-width: 768px) {
+  .contact-content {
+    flex-direction: column; /* Stack content vertically on smaller screens */
+    width: 90%; /* Adjust width for small screens */
+  }
+  
+  .contact-left {
+    padding: 2px; /* Reduce padding for smaller screens */
+    background-size: cover;
+    background-position: center; /* Adjust background position for small screens */
+  }
+
+  .contact-right {
+    padding: 20px; /* Reduce padding for smaller screens */
+  }
+  
+  .contact-button input[type="button"] {
+    padding: 8px 16px; /* Adjust button padding for small screens */
+  }
+}
+
+
+
+
+
+.circle-blue{
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #2b3349;
+  text-align: center;
+}

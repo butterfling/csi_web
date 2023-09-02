@@ -1,0 +1,44 @@
+.icon-user {
+    color: white;
+}
+
+.div-icon {
+    margin-top: 30vh;
+}
+
+.hamburger {
+    display: none;
+}
+
+
+@media (max-width:1080px) {
+    .l_sidebar {
+        display: none !important;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .csi-logo {
+        display: none;
+    }
+
+    .csi-text-outer {
+        display: none;
+    }
+
+    .sidebar_small {
+        background-color: transparent !important;
+    }
+}
+
+.l_sidebar {
+    z-index: 100 !important;
+}
+
+.social-link:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+    transition: ease-in-out 0.2s;
+}

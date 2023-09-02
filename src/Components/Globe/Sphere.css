@@ -1,0 +1,52 @@
+@media (max-width:1100px)
+{.globe-outer{
+    flex-direction: column;
+}
+.canva-globe,.content{
+    width: 100% !important;
+    display: flex;
+    justify-content: center;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.content p{
+    text-align: justify;
+    padding: 20px;
+    margin-right: 0px !important;
+}
+.canva-globe{
+    margin-top: -200px !important;
+}
+.content{
+    margin-top: -200px !important;
+}
+
+}
+@media (max-width:1100px) and (min-width:640px) {
+    .content{
+        padding-left: 70px !important;
+        padding-right: 70px !important;
+    }
+}
+
+.bg-black{
+    background-color: transparent;
+}
+
+@media (max-width:690px) {
+    .canva-globe{
+            z-index: -1 !important;
+        
+    }
+    .content p{
+
+        padding: 35px;
+
+    }
+}
+
+@media (max-width:1190px) {
+    .about-text{
+        font-size: 13px !important;
+    }
+}
